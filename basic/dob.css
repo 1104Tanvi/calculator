@@ -1,0 +1,99 @@
+#dob{
+    display: block;
+    margin: 50px auto;
+}
+.firstlevel{
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-shadow: 2px 2px 4px #868080;
+    outline: none;
+}
+.secondlevel{
+    margin:0px 40px 0px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-shadow: 2px 2px 4px #868080;
+    outline: none;
+}
+#currentAge{
+    /* margin-top:30px; */
+    /* margin-left:37% ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+.list1{
+    font-size: 30px;
+    margin-left:23px ;
+}
+.list2{
+    font-size:35px;
+    color: tomato;
+}
+.littlespace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+}
+.next{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: tomato;
+}
+.little{
+    margin-top: 5px;
+}
+#verticalline{
+    margin-top: 8px;
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 130px;
+    border-style:solid;
+}
+#firstclass{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.summa{
+    color: tomato;
+    margin-top: 10px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    margin-left:35%;
+    margin-bottom: 0px;
+}
+#initialsummary{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width:30%;
+    margin-left:35%;
+    height:150px;
+    
+    border-bottom: 3px solid rgb(22, 24, 23);
+}
+.firsthead{
+    font-size:12px;
+}
+.secondhead{
+    font-size:25px;
+}
+
+.thirdhead{
+    font-size:12px;
+}
+.fourthead{
+    font-size:16px;
+}

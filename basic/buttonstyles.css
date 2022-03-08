@@ -1,0 +1,173 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: #fffff0;
+}
+
+/* For the main calculator ,buttons and answer bar */
+
+#box{
+    margin:-14px 332px auto 375px;
+    width: 52%;
+    background-color: #fffff0;
+}
+
+.buttons{
+    border-style:none;
+    outline: none;
+    background-color:#fffff0;
+    border-radius: 15px;
+}
+
+.calculator{
+    font-size: 30px;
+    margin:17px auto;
+    padding: 10px 50px;
+}
+
+#top,#middle,#bottom{
+    display: block;
+}
+
+.hidden{
+    visibility:hidden;
+    color: rgb(80, 80, 221);
+} 
+
+.col{
+    color: tomato;
+}
+
+.buttons:hover{
+    background-color:#A9A9A9 ;
+}
+
+#answer{
+    display: block;
+    direction:ltr;
+    font-size: 30px;
+    margin: 100px 71px 0 auto;
+    height:50px;
+    width:500px;
+    border-radius: 15px;
+    outline: none;
+    
+}
+/* For the main calculator ,buttons and answer bar */
+
+/* for the history of the calculations */
+
+.hist{
+    width: 100px;
+    margin: 10px 155px 20px auto;
+    font-size: 15px;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    padding:10px;
+    text-shadow: 2px 2px 4px #868080;
+}
+#history{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 150px;
+    left: 0px;
+    height: 80%;
+    width:25%;
+}
+
+.hist:hover{
+    background-color:#A9A9A9 ;
+    border: black;
+    border-style: solid;
+}
+
+
+
+#histtxt{
+    height: 700px;
+    box-shadow: black;
+    width: 300px;
+    margin:0px 20px;
+    overflow: scroll;
+    border-radius: 10px;
+    border-style:groove;
+    color:whitesmoke;
+    background-color:#555555 ;
+    visibility: hidden;
+} 
+#clearhist{
+    visibility: hidden;
+    width:120px;
+    padding:10px;
+    text-shadow: 2px 2px 4px #6d5959;
+}
+#clearhist:hover{
+    
+    background-color:#A9A9A9 ;
+}
+/* for the history of the calculations*/
+
+
+/* for the list of rules */
+
+.listofrules{
+    margin: 5px;
+    font-size: 10px;
+    text-shadow: 2px 2px 4px #969090;
+}
+
+#instruction{
+    position: absolute;
+    transition: transform .2s;
+    top:150px;
+    right:0px;
+    height: 43%;
+    width:25%;
+    border-style:groove;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#instruction:hover{
+    transform: scale(1.5);
+    border-style:none;
+
+}
+/* for the list of rules */
+
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+   
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    width: 30%; 
+    list-style: none;
+    text-decoration: none;
+}
+.linkstyle{
+    text-decoration: none;
+    color: tomato;
+    text-shadow: 2px 2px 4px tomato;
+}
+.linkstyle:hover{
+    color: violet;
+    text-decoration: underline;
+}
+
+
+
+
+p{
+    text-shadow: 2px 2px 4px #807575;
+}
